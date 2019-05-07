@@ -16,3 +16,11 @@ print(age)
 weight_pounds = input('Enter your weight in Pounds: ')
 weight_kilograms = float(weight_pounds) / 2.2046
 print(weight_kilograms)
+
+alphabets = "abcdefghijklmnopqrstuvwxyz"
+print(alphabets.upper()[0:6])
+
+first = input('Enter your First Name: ')
+last = input('Enter your Last Name: ')
+msg = f'{first} [{last}] is a coder'
+print(msg)
