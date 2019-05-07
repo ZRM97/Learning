@@ -12,3 +12,7 @@ print(name + ' likes ' + favourite_color)
 birth_year = input('Enter your birth year: ')
 age = 2019 - int(birth_year)
 print(age)
+
+weight_pounds = input('Enter your weight in Pounds: ')
+weight_kilograms = float(weight_pounds) / 2.2046
+print(weight_kilograms)
